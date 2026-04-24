@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>State Tourism</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #F8F9FA;
+      color: #212529;
+    }
+
+    /* HEADER */
+    header {
+      background: #04851a;
+      color: white;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    .btn {
+      background: #F4A261;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /* HERO */
+    .hero {
+      background: url("frontPage.gif") no-repeat center;
+      height: 350px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .search-box {
+      margin-top: 15px;
+    }
+
+    .search-box input {
+      padding: 8px;
+      margin: 5px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    /* SECTION */
+    section {
+      padding: 40px 50px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    /* DESTINATIONS */
+    .cards {
+      display: flex;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      width: 23%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* THINGS TO DO */
+    .things {
+      display: flex;
+      justify-content: space-around;
+      background: #e9ecef;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    /* MAP */
+    .map {
+      display: flex;
+      gap: 20px;
+    }
+
+    .map-box {
+      background: #ddd;
+      height: 200px;
+      flex: 2;
+    }
+
+    .info-box {
+      background: white;
+      padding: 15px;
+      flex: 1;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #0B3D91;
+      color: white;
+      padding: 30px 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="tp">
+    <h2 id="cgt">Chhattishgarh Tourism</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">Experiences</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="btn">Explore Now</button>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+  
+    <pre>
+
+
+
+
+    </pre>
+    <h1>Discover the Beauty of Chhattishgarh</h1>
+    <p>Culture, Nature, Adventure awaits you</p>
+    <!-- <div class="search-box">
+      <input type="text" placeholder="Location">
+      <input type="date">
+      <button class="btn">Plan Trip</button>
+    </div> -->
+  </div>
+
+  <!-- DESTINATIONS -->
+  <section>
+    <h2>Top Destinations</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="CHITRAKOTE.jpg">
+        <h3>Chitrakot Waterfall Explore</h3>
+        <!-- <p>Beautiful beach view</p>
+        <button class="btn">Explore</button> -->
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+        <h3>Mountains</h3>
+        <p>Peaceful mountains</p>
+        <button class="btn">Explore</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+        <h3>Forest</h3>
+        <p>Green forest</p>
+        <button class="btn">Explore</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29">
+        <h3>City</h3>
+        <p>Modern city</p>
+        <button class="btn">Explore</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- THINGS TO DO -->
+  <section>
+    <h2>Things to Do</h2>
+    <div class="things">
+      <div>Adventure</div>
+      <div>Culture</div>
+      <div>Food</div>
+      <div>Wildlife</div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section>
+    <h2>Explore the Map</h2>
+    <div class="map">
+      <div class="map-box"></div>
+      <div class="info-box">
+        <p>Location Info</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>About Tourism</div>
+    <div>Quick Links</div>
+    <div>Contact Info</div>
+  </footer>
+
+</body>
+</html>
